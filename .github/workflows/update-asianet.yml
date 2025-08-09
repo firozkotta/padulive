@@ -2,11 +2,15 @@ name: Update Asianet News URL
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min
-  workflow_dispatch: {}      # allow manual trigger
+    - cron: "*/30 * * * *"  # every 30 minutes
+  workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: m3u-updates
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -25,13 +29,13 @@ jobs:
       - name: Update Asianet News link
         run: python update_asianetnews.py
 
-      - name: Commit changes
+      - name: Commit changes (if any)
         run: |
-          if git status --porcelain | grep -q "padulive.m3u"; then
+          if git status --porcelain | grep -q "kerala_tv.m3u"; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add padulive.m3u
-            git commit -m "Auto-update Asianet News URL ($(date -u +"%Y-%m-%dT%H:%M:%SZ"))"
+            git add kerala_tv.m3u kerala_tv.m3u.bak || true
+            git commit -m "Auto-update Asianet News URL ($(date -u +"%Y-%m-%dT%H:%M:%SZ"))" || true
             git push
           else
             echo "No changes to commit."

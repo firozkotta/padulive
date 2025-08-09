@@ -36,7 +36,7 @@ def write_m3u(entries, out_path: Path):
 
 def main():
     cfg_path = Path("tools/channels.json")
-    out_path = Path("docs/padulive.m3u")  # GitHub Pages serves from /docs by default
+    out_path = Path("padulive.m3u")  # Root folder since Pages is set to / root
     channels = json.loads(cfg_path.read_text(encoding="utf-8"))
     entries = []
     for ch in channels:

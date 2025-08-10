@@ -37,7 +37,7 @@ https://segment.yuppcdn.net/110322/channel24/playlist.m3u8
 https://d1ty2af03alkwd.cloudfront.net/index_4.m3u8
 #EXTINF:-1 tvg-id="MBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/MBC_Bollywood_Logo.svg/320px-MBC_Bollywood_Logo.svg.png" group-title="Hindi",MBC Bollywood
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
-#EXTINF:-1 tvg-id="9XM" tvg-logo="https://i.imgur.com/F17QtN2.png" group-title="Hindi",9XM Bollywood
+#EXTINF:-1 tvg-id="9XM" tvg-logo="https://i.imgur.com/F17QtN2.png" group-title="Hindi",9XM Bollywood new
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
 #EXTINF:-1 tvg-id="Bollywood Classic" tvg-logo="https://s.pngkit.com/png/small/36-366826_india-is-the-worlds-largest-importer-of-arms.png" group-title="Hindi",Classic Bollywood
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/663692c6-b9ff-4799-8e30-c475adb30481/2.m3u8

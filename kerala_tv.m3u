@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Asianet News" tvg-logo="https://images.seeklogo.com/logo-png/34/1/asianet-news-logo-png_seeklogo-343770.png" group-title="News", Asianet News
+#EXTINF:-1 tvg-id="Asianet News" tvg-logo="https://images.seeklogo.com/logo-png/34/1/asianet-news-logo-png_seeklogo-343770.png" group-title="News",Asianet News
 https://yuppmedtaorire.akamaized.net/v1/manifest/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/asianetnews_nim_https/c6961233-1ec7-4538-b06c-27e8a05e7bcc/1.m3u8
 #EXTINF:-1 tvg-id="DDMalayalam.in" tvg-logo="https://i.imgur.com/ywm2dTl.png" group-title="Entertainment",DD Malayalam
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/562ee8f9-9950-48a0-ba1d-effa00cf0478/2.m3u8
@@ -41,9 +41,11 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a2
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
 #EXTINF:-1 tvg-id="Bollywood Classic" tvg-logo="https://s.pngkit.com/png/small/36-366826_india-is-the-worlds-largest-importer-of-arms.png" group-title="Hindi",Classic Bollywood
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/663692c6-b9ff-4799-8e30-c475adb30481/2.m3u8
-#EXTINF:0, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/NDTV_247.svg" group-title="News",NDTV 24x7
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/NDTV_247.svg" group-title="News",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
-#EXTINF:0, tvg-logo="http://www.encounters.co.za/wp-content/uploads/2017/05/al-jazeera-500x288.png" group-title="News" tvg-ID="al-jazeera.info",Al Jazeera English
+#EXTINF:-1 tvg-logo="http://www.encounters.co.za/wp-content/uploads/2017/05/al-jazeera-500x288.png" group-title="News",Al Jazeera English
 http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8
-#EXTINF:0, tvg-logo="http://www.oneafrica.tv/wp-content/uploads/2016/07/DW-Journal-News.jpg" group-title="News" tvg-ID="deutchewelle.info",DW
+#EXTINF:-1 tvg-logo="http://www.oneafrica.tv/wp-content/uploads/2016/07/DW-Journal-News.jpg" group-title="News",DW
 https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/38/WSB-TV_2_logo.png" group-title="US Local",ABC-WSB-Atlanta
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsbbreakingnews-ono/playlist.m3u8

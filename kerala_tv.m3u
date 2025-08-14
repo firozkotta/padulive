@@ -43,3 +43,8 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7mast
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsbbreakingnews-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="NDTV Profit" tvg-logo="https://mir-s3-cdn-cf.behance.net/projects/404/7779531.5473c3c44bcac.png" group-title="India Business",NDTV Profit
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_4.m3u8
+#EXTINF:-1 tvg-id="CNN" tvg-logo="https://toppng.com/uploads/preview/cnn-international-logo-png-cnn-logo-11562982950rfhtq9kum0.png" group-title="US News",CNN
+https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="CBS" tvg-logo="https://toppng.com/uploads/preview/cbs-announces-fall-schedule-cbs-logo-11563209831ezlotzhen2.png" group-title="US News",CBS
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_24.m3u8
+
